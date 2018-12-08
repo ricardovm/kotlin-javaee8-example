@@ -7,5 +7,5 @@ import javax.ws.rs.Path
 class KotlinMessageEndpoint {
 
     @GET
-    fun hello(): String = "Hello world from Kotlin!"
+    fun hello(): String = """Hello world from Kotlin ${KotlinVersion.CURRENT}!"""
 }
